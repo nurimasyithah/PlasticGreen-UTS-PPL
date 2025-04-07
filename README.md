@@ -1,5 +1,5 @@
 
-# ♻️ PlastiGreen  
+# ♻️ PlasticGreen  
 *Aplikasi web ringan dan edukatif untuk meningkatkan kesadaran tentang sampah plastik dan jejak karbon.*
 
 ---
@@ -15,7 +15,7 @@
 
 ## ✅ 2. Solusi
 
-**PlastiGreen** adalah aplikasi web edukatif yang:
+**PlasticGreen** adalah aplikasi web edukatif yang:
 - Sederhana & ramah pengguna, cocok untuk semua usia  
 - Menyediakan **edukasi visual & interaktif**  
 - Menyadarkan pengguna akan jejak karbon pribadi  
@@ -60,8 +60,8 @@
 
 ### 1. Clone repository
 ```bash
-git clone https://github.com/nama-kamu/plastigreen.git
-cd plastigreen
+git clone https://github.com/nama-kamu/PlasticGreen.git
+cd PlasticGreen
 ```
 
 ### 2. Install dependency
