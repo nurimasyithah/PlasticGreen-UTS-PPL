@@ -1,0 +1,234 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="description" content="description"/>
+    <meta name="keywords" content="keywords"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="shortcut icon" href="img/favicon.ico"/>
+    <title>Plastic Green Power</title>
+    <!-- styles-->
+    <link rel="stylesheet" href="css/styles.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+   
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- aside dropdown start-->
+        <div class="aside-dropdown">
+            <div class="aside-dropdown__inner">
+                <span class="aside-dropdown__close">
+                    <div class="icon-item__img">
+                        <i class="fa fa-times-circle" aria-hidden="true"></i>
+                    </div>
+                </span>
+                <div class="aside-dropdown__item d-lg-none d-block">
+                    <ul class="aside-menu">
+                        <li class="aside-menu__item"><a class="aside-menu__link" <a href="/">Beranda</a>
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="mission"><span>Plastik Hijau</span></a></li>
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="projects"><span>Hitung Jejak Karbon</span></a></li>
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="news"><span>Berita</span></a></li>
+                        <li class="aside-menu__item"><a class="aside-menu__link" href="contact"><span>Kontak</span></a></li>
+                    </ul>
+                </div>
+                <div class="aside-dropdown__item">
+                    <div class="aside-inner"><span class="aside-inner__title">Address</span>
+                        <p class="aside-inner__link">71-75 Shelton Street,<br>London, WC2H 9JQ</p>
+                    </div>
+                    <div class="aside-inner"><span class="aside-inner__title">Email</span>
+                        <a class="aside-inner__link" href="mailto:info@plasticgreenpower.co.uk">info@plasticgreenpower.co.uk</a>
+                    </div>
+                    <div class="aside-inner"><span class="aside-inner__title">Phone</span>
+                        <a class="aside-inner__link" href="tel:+44 (0) 2039 055 483">+44 (0) 2039 055 483</a>
+                    </div>
+                    <ul class="aside-socials">
+                        <li class="aside-socials__item"><a class="aside-socials__link" href="https://linkedin.com/company/plgreenpower"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        <li class="aside-socials__item"><a class="aside-socials__link aside-socials__link--active" href="https://twitter.com/plgreenpower"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li class="aside-socials__item"><a class="aside-socials__link" href="https://facebook.com/plgreenpower"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- aside dropdown end-->
+        <!-- header start-->
+        <header class="header header--front">
+            <div class="container-fluid">
+                <div class="row no-gutters justify-content-between">
+                    <div class="col-auto d-flex align-items-center">
+                        <div class="dropdown-trigger d-none">
+                            <div class="dropdown-trigger__item"></div>
+                        </div>
+                        <div class="header-logo"><a class="header-logo__link" href="beranda"><img class="header-logo__img" src="img/svg/logo.svg"/></a></div>
+                    </div>
+                    <div class="col-auto">
+                        <!-- main menu start-->
+                        <nav>
+
+                            <ul class="main-menu">
+                                <li class="main-menu__item"><a class="main-menu__link" <a href="/">Beranda</a>
+                                <li class="main-menu__item"><a class="main-menu__link" href="mission"><span>Plastik Hijau</span></a></li>
+                                <li class="main-menu__item main-menu__item--has-child main-menu__item--active"><a class="main-menu__link" href="projects"><span>Hitung Jejak Karbon</span></a></li>
+                                <li class="main-menu__item"><a class="main-menu__link" href="news"><span>Berita</span></a></li>
+                                <li class="main-menu__item"><a class="main-menu__link" href="contact"><span>Kontak</span></a></li>
+                            </ul>
+                        </nav>
+                        <!-- main menu end-->
+                    </div>
+                    <div class="col-auto d-flex align-items-center">
+                        <div class="dropdown-trigger d-block d-xs-none">
+                            <div class="dropdown-trigger__item"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header end-->
+        <main class="main">
+            <section class="promo-primary">
+                <picture>
+                    <source srcset="img/about.jpg" media="(min-width: 992px)"/><img class="img--bg" src="img/about.jpg" alt="img"/>
+                </picture>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-auto">
+                            <div class="align-container">
+                                <div class="align-container__item">
+                                    <h1 class="promo-primary__title"><span></span><br/><span>Hitung Jejak Karbon</span></h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+                <!-- section start --> 
+                <section class="section about-us">
+                <div class="container">
+                    <div class="row justify-content-center">
+                    <!-- Kalkulator Jejak Karbon -->
+                    <div class="col-lg-6 mb-5 d-flex justify-content-center">
+                        <div class="p-4 w-100" style="background-color: #e6f4ea; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); max-width: 500px;">
+                        <h3 class="mb-3 text-center" style="color:rgb(157, 218, 36);"> Kalkulator Jejak Karbon</h3>
+                        <form id="carbonForm">
+                            <label for="sedotan">Jumlah Sedotan Plastik per Hari:</label>
+                            <input type="number" id="sedotan" name="sedotan" class="form-control mb-2" min="0" required>
+
+                            <label for="botol">Jumlah Botol Plastik per Hari:</label>
+                            <input type="number" id="botol" name="botol" class="form-control mb-2" min="0" required>
+
+                            <label for="kantong">Jumlah Kantong Plastik per Hari:</label>
+                            <input type="number" id="kantong" name="kantong" class="form-control mb-3" min="0" required>
+
+                            <button type="submit" class="btn btn-success w-100"> Hitung Jejak Karbon</button>
+                        </form>
+
+                        <div id="hasil" class="mt-4 fw-bold text-success text-center"></div>
+                        <div id="saran" class="mt-2 text-muted text-center"></div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+             
+
+                <!-- Script Kalkulasi -->
+                <script>
+                document.getElementById('carbonForm').addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                const sedotan = parseInt(document.getElementById('sedotan').value) || 0;
+                const botol = parseInt(document.getElementById('botol').value) || 0;
+                const kantong = parseInt(document.getElementById('kantong').value) || 0;
+
+                const emisiHarian = (sedotan * 0.1) + (botol * 0.25) + (kantong * 0.2);
+                const emisiBulanan = emisiHarian * 30;
+                const jumlahPohon = Math.ceil(emisiBulanan / 6); // 1 pohon menyerap ±6kg CO2 per bulan
+
+                document.getElementById('hasil').innerHTML = 
+                    `♻️ Konsumsi plastikmu menghasilkan sekitar <strong>${emisiBulanan.toFixed(2)} kg CO₂</strong> per bulan. 
+                    Dibutuhkan <strong>${jumlahPohon}</strong> pohon untuk menyerapnya! 🌳`;
+
+                document.getElementById('saran').innerHTML = `
+                    💡 <em>Coba kurangi dengan:</em><br>
+                    - Membawa tumblr sendiri ☕<br>
+                    - Gunakan tas belanja kain 🛍️<br>
+                    - Hindari sedotan plastik 🧃
+                `;
+                });
+                </script>
+                <!-- about-us end--> 
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-xl-6 mb-5">
+                            <div class="heading heading--primary">
+                                <div class="d-inline-block">
+                                    <h3 class="d-inline-block align-middle green-gradient-color"><span>Dari Sampah Plastik ke Energi Ramah Lingkungan<br></span></h3>
+                                </div>
+                            </div>
+                            <p>Tahukah kamu? Beberapa teknologi terbaru seperti Plastic Waste to Gas Power (PWGP) kini mampu mengubah residu plastik—yang biasanya tak bisa didaur ulang—menjadi gas rendah karbon. Gas ini digunakan untuk menyalakan pembangkit listrik dan mengurangi ketergantungan kita pada energi fosil. </p>
+                            <p>Jadi, meski mengurangi plastik adalah langkah pertama, solusi seperti ini membantu menyelamatkan sisa yang tak terhindarkan. Setiap aksi kecilmu hari ini, seperti membawa tas belanja sendiri atau menghitung jejak karbonmu, ikut mendukung sistem energi masa depan yang lebih bersih.</p>
+                        </div>
+                        <div class="col-lg-6 col-xl-5 offset-xl-1">
+                            <div class="img-box">
+                                <div class="img-box__img"><img class="img--bg" src="img/energy-generation-site.jpg" alt="img"></div>
+                            </div>
+                        </div>
+                    </div>
+             </section>
+
+   </main>
+			
+		<!-- footer start-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="footer-logo"><a class="footer-logo__link" href="beranda"><img class="footer-logo__img" src="img/svg/logo.svg"/></a></div>
+                        <!-- footer socials start-->
+                        <ul class="footer-socials">
+                            <li class="footer-socials__item"><a class="footer-socials__link" href="https://www.linkedin.com/in/nuri-masyithah-560663272/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                            <li class="footer-socials__item"><a class="footer-socials__link" href="https://twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                            <li class="footer-socials__item"><a class="footer-socials__link" href="https://facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                        </ul>
+                        <!-- footer socials end-->
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h4 class="footer__title">Kontak</h4>
+                        <div class="footer-contacts">
+                            <p class="footer-contacts__address">
+                            Darussalam,<br>Banda Aceh</p>
+                            <p class="footer-contacts__phone">
+                            Phone: <a href="tel:+1234567890123">+12 (3) 4567 890 123</a>
+                            </p>
+                            <p class="footer-contacts__mail">
+                            <a href="mailto:nurimasyithah@gmail.com">nurimasyithah@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <h4 class="footer__title">Menu & Links</h4>
+                        <!-- footer nav start-->
+                        <nav>
+                            <ul class="footer-menu">
+                                <li class="footer-menu__item"><a class="footer-menu__link" <a href="/">Beranda</a>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="mission">Plastik Hijau</a></li>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="projects">Hitung Jejak Karbon</a></li>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="news">Berita</a></li>
+                                <li class="footer-menu__item"><a class="footer-menu__link" href="contact">Kontak</a></li>
+                            </ul>
+                        </nav>
+                        <!-- footer nav end-->
+                    </div>
+                </div>
+                <div class="row align-items-baseline">
+                    <div class="col-md-6">
+                        <p class="footer-copyright">© 2025 Plastic Green. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-privacy"><a class="footer-privacy__link" href="privacy-policy">Privacy Policy</a><span class="footer-privacy__divider">|</span><a class="footer-privacy__link" href="terms-conditions">Terms and Conditions</a></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end-->
+    </div>

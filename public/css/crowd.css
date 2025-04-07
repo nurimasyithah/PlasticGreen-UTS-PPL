@@ -1,0 +1,16 @@
+
+main, .aside-dropdown, header {
+    margin-top: 165px;
+}
+
+@media (min-width: 768px) {
+    main, .aside-dropdown, header {
+        margin-top: 118px;
+    }
+}
+
+@media (min-width:1024px) {
+    main, .aside-dropdown, header {
+        margin-top: 80px;
+    }
+}
